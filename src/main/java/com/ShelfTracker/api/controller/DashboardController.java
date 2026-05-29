@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "*") // Prevents CORS blocks when linking your HTML frontend
+@CrossOrigin(origins = "*")
 public class DashboardController {
 
     // 1. GET REAL-TIME ALERTS & TELEMETRY SUMMARY
