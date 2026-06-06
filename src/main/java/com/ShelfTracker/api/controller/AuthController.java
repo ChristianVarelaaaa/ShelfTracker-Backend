@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://app.netlify.com/projects/ephemeral-strudel-07d7dc")
 public class AuthController {
 
     @PostMapping("/login")
