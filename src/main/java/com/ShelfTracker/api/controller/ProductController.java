@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://app.netlify.com/projects/ephemeral-strudel-07d7dc")
 public class ProductController {
 
     // 1. READ: Makuha ang lahat ng rehistradong gamot sa inventory

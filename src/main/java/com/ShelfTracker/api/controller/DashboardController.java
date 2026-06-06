@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://app.netlify.com/projects/ephemeral-strudel-07d7dc")
 public class DashboardController {
 
     // 1. GET REAL-TIME ALERTS & TELEMETRY SUMMARY
